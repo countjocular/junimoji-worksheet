@@ -63,6 +63,12 @@ li.clue input {
   letter-spacing: 10px;
 }
 
+header {
+  position: absolute;
+  top: 650px;
+  max-width: 1200px;
+}
+
 footer {
   position: absolute;
   bottom: 0;
