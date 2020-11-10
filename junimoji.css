@@ -87,6 +87,10 @@ footer {
   float: right;
 }
 
+li.clue input {
+  width: 375px;
+}
+
 #clue-1 input { background-color: #9977b4; }
 #section-1 .tile  { border-color: #9977b4; }
 #clue-2 input { background-color: #dd86b9; }
