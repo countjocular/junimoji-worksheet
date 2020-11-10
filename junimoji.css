@@ -24,7 +24,7 @@ div.tile {
   display: block;
   width: 65px;
   height: 65px;
-  border: dotted 1px #666;
+  border: solid 1px #666;
   font-family: 'Oxygen Mono', monospace;
   font-size: 50px;
   text-align: center;
@@ -62,3 +62,40 @@ li.clue input {
   text-transform: uppercase;
   letter-spacing: 10px;
 }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 98%;
+  height: 150px;
+  background: #aaa;
+}
+
+#creator {
+  font-size: 20px;
+  float: left;
+}
+
+#credits {
+  font-size: 15px;
+  float: right;
+}
+
+#clue-1 input { background-color: #9977b4; }
+#section-1 .tile  { border-color: #9977b4; }
+#clue-2 input { background-color: #dd86b9; }
+#section-2 .tile  { border-color: #dd86b9; }
+#clue-3 input { background-color: #f497aa; }
+#section-3 .tile  { border-color: #f497aa; }
+#clue-4 input { background-color: #f9b48a; }
+#section-4 .tile  { border-color: #f9b48a; }
+#clue-5 input { background-color: #fdcd79; }
+#section-5 .tile  { border-color: #fdcd79; }
+#clue-6 input { background-color: #fcf791; }
+#section-6 .tile  { border-color: #fcf791; }
+#clue-7 input { background-color: #b6d884; }
+#section-7 .tile  { border-color: #b6d884; }
+#clue-8 input { background-color: #6bcade; }
+#section-8 .tile  { border-color: #6bcade; }
+#clue-9 input { background-color: #71abdd; }
+#section-9 .tile  { border-color: #71abdd; }
