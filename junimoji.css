@@ -61,6 +61,7 @@ li.clue input {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 10px;
+  width: 375px;
 }
 
 header {
@@ -85,10 +86,6 @@ footer {
 #credits {
   font-size: 15px;
   float: right;
-}
-
-li.clue input {
-  width: 375px;
 }
 
 #clue-1 input { background-color: #9977b4; }
