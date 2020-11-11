@@ -106,3 +106,15 @@ footer {
 #section-8 .tile  { border-color: #6bcade; }
 #clue-9 input { background-color: #71abdd; }
 #section-9 .tile  { border-color: #71abdd; }
+
+a#generate-permalink {
+  font-size: 10px;
+  border-bottom: 1px solid #333;
+  cursor: pointer;
+}
+
+p#show-permalink {
+  width: 406px;
+  font-size: 12px;
+  padding: 2px;
+}

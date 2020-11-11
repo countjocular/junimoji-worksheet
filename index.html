@@ -1,7 +1,7 @@
 <html>
   <head>
     <title>Count Jocular's Junimoji Worksheet</title>
-    <link rel="stylesheet" href="junimoji.css">
+    <link rel="stylesheet" href="junimoji.css" />
   </head>
 
   <header>
@@ -292,17 +292,19 @@
     </div>
 
     <div class="container" id="clue-container">
-            <ol>
-                    <li class="clue" id="clue-1"><input type="text"></input></li>
-                    <li class="clue" id="clue-2"><input type="text"></input></li>
-                    <li class="clue" id="clue-3"><input type="text"></input></li>
-                    <li class="clue" id="clue-4"><input type="text"></input></li>
-                    <li class="clue" id="clue-5"><input type="text"></input></li>
-                    <li class="clue" id="clue-6"><input type="text"></input></li>
-                    <li class="clue" id="clue-7"><input type="text"></input></li>
-                    <li class="clue" id="clue-8"><input type="text"></input></li>
-                    <li class="clue" id="clue-9"><input type="text"></input></li>
-            </ol>
+        <ol>
+            <li class="clue" id="clue-1"><input type="text" id="clue-1-input"></input></li>
+            <li class="clue" id="clue-2"><input type="text" id="clue-2-input"></input></li>
+            <li class="clue" id="clue-3"><input type="text" id="clue-3-input"></input></li>
+            <li class="clue" id="clue-4"><input type="text" id="clue-4-input"></input></li>
+            <li class="clue" id="clue-5"><input type="text" id="clue-5-input"></input></li>
+            <li class="clue" id="clue-6"><input type="text" id="clue-6-input"></input></li>
+            <li class="clue" id="clue-7"><input type="text" id="clue-7-input"></input></li>
+            <li class="clue" id="clue-8"><input type="text" id="clue-8-input"></input></li>
+            <li class="clue" id="clue-9"><input type="text" id="clue-9-input"></input></li>
+        </ol>
+        <p><a id="generate-permalink" onClick="showPermalink();">Generate unique URL</a></p>
+        <p id="show-permalink"></p>
     </div>
 
   </body>
@@ -319,4 +321,6 @@
                   <a href="https://linktr.ee/frizfrizzle">Friz Frizzle</a>
           </h2>
   </footer>
+<script src="./getCluesFromQuery.js" type="text/javascript" ></script>
+<script src="./getQueryFromClues.js" type="text/javascript" ></script>
 </html>
