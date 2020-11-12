@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap');
 
 body {
-  display: flex;
+  margin: 0;
   font-family: 'Oxygen Mono', monospace;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 div#container {
@@ -65,27 +71,34 @@ li.clue input {
 }
 
 header {
-  position: absolute;
-  top: 650px;
-  max-width: 1200px;
+  width: 98%;
+  font-size: 14px;
+  height: 55px;
+  margin-bottom: 20px;
+  background: #aaa;
+  opacity: 80%;
+  padding: 1%;
+}
+
+header h1 {
+  width: 45%;
+  float: left;
+}
+
+header h2 {
+  width: 45%;
+  float: right;
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
-  width: 98%;
-  height: 150px;
-  background: #aaa;
-}
-
-#creator {
-  font-size: 20px;
-  float: left;
+  max-width: 950px;
+  margin: auto;
 }
 
 #credits {
   font-size: 15px;
   float: right;
+  text-align: right;
 }
 
 #clue-1 input { background-color: #9977b4; }
