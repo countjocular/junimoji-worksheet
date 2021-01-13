@@ -122,24 +122,24 @@ footer {
   text-align: right;
 }
 
-#clue-0 input { background-color: #9977b4; }
-#section-0 .tile  { border-color: #9977b4; }
-#clue-1 input { background-color: #dd86b9; }
-#section-1 .tile  { border-color: #dd86b9; }
-#clue-2 input { background-color: #f497aa; }
-#section-2 .tile  { border-color: #f497aa; }
-#clue-3 input { background-color: #f9b48a; }
-#section-3 .tile  { border-color: #f9b48a; }
-#clue-4 input { background-color: #fdcd79; }
-#section-4 .tile  { border-color: #fdcd79; }
-#clue-5 input { background-color: #fcf791; }
-#section-5 .tile  { border-color: #fcf791; }
-#clue-6 input { background-color: #b6d884; }
-#section-6 .tile  { border-color: #b6d884; }
-#clue-7 input { background-color: #6bcade; }
-#section-7 .tile  { border-color: #6bcade; }
-#clue-8 input { background-color: #71abdd; }
-#section-8 .tile  { border-color: #71abdd; }
+.clue-style-0 { background-color: #9977b4; }
+.clue-style-1 { background-color: #dd86b9; }
+.clue-style-2 { background-color: #f497aa; }
+.clue-style-3 { background-color: #f9b48a; }
+.clue-style-4 { background-color: #fdcd79; }
+.clue-style-5 { background-color: #fcf791; }
+.clue-style-6 { background-color: #b6d884; }
+.clue-style-7 { background-color: #6bcade; }
+.clue-style-8 { background-color: #71abdd; }
+.tile-style-0 { border-color: #9977b4 !important; }
+.tile-style-1 { border-color: #dd86b9 !important; }
+.tile-style-2 { border-color: #f497aa !important; }
+.tile-style-3 { border-color: #f9b48a !important; }
+.tile-style-4 { border-color: #fdcd79 !important; }
+.tile-style-5 { border-color: #fcf791 !important; }
+.tile-style-6 { border-color: #b6d884 !important; }
+.tile-style-7 { border-color: #6bcade !important; }
+.tile-style-8 { border-color: #71abdd !important; }
 
 a#generate-permalink {
   font-size: 10px;

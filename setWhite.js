@@ -12,16 +12,12 @@ function addJunimojiListener(tileid) {
 }
 
 function createJunimojiListeners() {
-  var numberOfSections;
-  numberOfSections = 9;
-  var tilesInASection;
-  tilesInASection = 9;
+  var i;
+  var j;
 
-  for (i = 0; i < numberOfSections; i++) {
-    for (j = 0; j < tilesInASection; j++) {
+  for (i = 0; i < window.numberOfSections; i++) {
+    for (j = 0; j < window.tilesInASection; j++) {
       addJunimojiListener('tile-'+i+'-'+j);
     }
   }
 }
-
-createJunimojiListeners();
