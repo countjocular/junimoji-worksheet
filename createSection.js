@@ -16,6 +16,9 @@ function createSection(sectionNumber) {
     tile.appendChild(input);
     section.appendChild(tile);
   }
+  var span = document.createElement('span');
+  span.innerHTML = sectionNumber+1;
+  section.appendChild(span);
 
   container.appendChild(section);
 }
