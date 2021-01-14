@@ -17,8 +17,6 @@ div#container {
   flex-flow: row wrap;
   width: 615;
   height: 615;
-  /* background-image: url('./background.jpg'); */
-  /* background-size: cover; */
   background-color: rgba(25,25,25,0.2);
 }
 
