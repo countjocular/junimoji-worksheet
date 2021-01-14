@@ -15,3 +15,5 @@ container.style.width = numberOfRows * 205;
 container.style.height = numberOfColumns * 205;
 
 setInputsFromRowsAndColumns();
+
+document.getElementById('subgrid-count').innerHTML = numberOfSections;
