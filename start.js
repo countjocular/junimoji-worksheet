@@ -10,6 +10,16 @@ if (window.cluesString) {
   clues.forEach(populateClue);
 }
 
+if (window.author) {
+  populateAuthor(window.author);
+}
+
+if (window.title) {
+  populateTitle(window.title);
+} else {
+  document.getElementById('pagetitle').innerHTML = "Junimoji Workspace";
+}
+
 var container = document.getElementById('container');
 container.style.width = numberOfRows * 205;
 container.style.height = numberOfColumns * 205;

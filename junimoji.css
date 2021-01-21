@@ -98,10 +98,11 @@ header {
   width: 98%;
   font-size: 14px;
   height: 55px;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
   background: #aaa;
   opacity: 80%;
   padding: 1%;
+  border-radius: 15px;
 }
 
 header h1 {
@@ -154,4 +155,19 @@ p#show-permalink {
   width: 406px;
   font-size: 12px;
   padding: 2px;
+}
+
+h1 {
+  font-weight: 100;
+  font-style: italic;
+}
+
+span#author {
+  font-weight: 100;
+  font-style: normal;
+}
+
+span#title {
+  font-weight: 800;
+  font-style: normal;
 }

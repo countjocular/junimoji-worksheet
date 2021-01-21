@@ -7,9 +7,14 @@
 
   <body>
   <header>
-          <h1>Junimoji Workout Space</h1>
-          Rows: <input id="rows-count"></input>
-          Columns: <input id="columns-count"></input>
+          <h1 id="pagetitle">
+            <span id="title"></span> by
+            <span id="author"></span>
+          </h1>
+          <div style="display: none;">
+            Rows: <input id="rows-count"></input>
+            Columns: <input id="columns-count"></input>
+          </div>
           <h2 id="credits">
                   <a href="https://twitter.com/junimojis">Junimojis</a>
                   created by
@@ -22,6 +27,7 @@
           </h2>
   </header>
   <div id="main">
+    <br />
     <div id="container">
 
     </div>
@@ -62,8 +68,9 @@
 <script src="./setWhite.js" type="text/javascript" ></script>
 <script src="./createSection.js" type="text/javascript" ></script>
 <script src="./createClue.js" type="text/javascript" ></script>
-<script src="./populateClue.js" type="text/javascript" ></script>
+<script src="./populateQuery.js" type="text/javascript" ></script>
 <script src="./getQueryFromClues.js" type="text/javascript" ></script>
 <script src="./rowsAndColumns.js" type="text/javascript" ></script>
 <script src="./start.js" type="text/javascript" ></script>
+<script src="./urlConverter.js" type="text/javascript" ></script>
 </html>
