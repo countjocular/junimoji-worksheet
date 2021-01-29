@@ -2,6 +2,7 @@
   <head>
     <title>Count Jocular's Junimoji Workout Space</title>
     <link rel="stylesheet" href="junimoji.css" />
+    <link rel="stylesheet" href="menu.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
   </head>
 
@@ -11,10 +12,6 @@
             <span id="title"></span> by
             <span id="author"></span>
           </h1>
-          <div style="display: none;">
-            Rows: <input id="rows-count"></input>
-            Columns: <input id="columns-count"></input>
-          </div>
           <h2 id="credits">
                   <a href="https://twitter.com/junimojis">Junimojis</a>
                   created by
@@ -36,7 +33,6 @@
         <ol>
 
         </ol>
-        <p id="show-permalink"></p>
     </div>
   </div><!-- main -->
 
@@ -57,6 +53,20 @@
             <li>Double-click any square to set it as black. Double-click it
                 again to set it as white. Double-click a third time to undo.
     </ol></p>
+
+
+    <div class="menu">
+      <p class="error">Changes you make here will be immediate, and may
+      override your current puzzle.</p>
+      <p>Rows: <input id="rows-edit" placeholder="3"></input></p>
+      <p>Columns: <input id="columns-edit" placeholder="3"></input></p>
+      <p>Author: <input id="author-edit" placeholder="Friz Frizzle"></input></p>
+      <p>Title: <input id="title-edit"></input></p>
+      <p id="show-permalink"></p>
+    </div>
+    <div class="menu__toggler"><span></span></div>
+
+
   </footer>
   <div class="github-ribbon">
     <a target="_blank" href="https://github.com/countjocular/junimoji-worksheet/">Fork me on GitHub</a>
@@ -64,6 +74,8 @@
   </body>
 
 <script src="./global.js" type="text/javascript" ></script>
+<script src="./menu.js" type="text/javascript" ></script>
+<script src="./redrawGridAndClues.js" type="text/javascript" ></script>
 <script src="./toggleBlack.js" type="text/javascript" ></script>
 <script src="./setWhite.js" type="text/javascript" ></script>
 <script src="./createSection.js" type="text/javascript" ></script>

@@ -15,7 +15,7 @@ function createJunimojiListeners() {
   var i;
   var j;
 
-  for (i = 0; i < window.numberOfSections; i++) {
+  for (i = 0; i < numberOfSections(); i++) {
     for (j = 0; j < window.tilesInASection; j++) {
       addJunimojiListener('tile-'+i+'-'+j);
     }

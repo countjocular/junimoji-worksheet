@@ -1,6 +1,6 @@
 function showPermalink() {
   var paramsString = ""; // empty
-  for(var i=0; i<numberOfSections; i++) {
+  for(var i=0; i<numberOfSections(); i++) {
     if(i != 0) {paramsString = paramsString+'-';}
     paramsString = paramsString + document.getElementById("clue-"+i+"-input").value;
   }

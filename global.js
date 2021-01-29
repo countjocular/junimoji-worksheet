@@ -12,10 +12,13 @@ if (numberOfRows == null) {
   numberOfRows = 3;
 }
 
-var numberOfSections = numberOfRows * numberOfColumns;
 var tilesInASection = 9;
 
 function sanitizeString(str){
     str = str.replace(/[^a-z0-9áéíóúñü \.,_-]/gim,"");
     return str.trim();
+}
+
+function numberOfSections() {
+  return numberOfRows * numberOfColumns;
 }

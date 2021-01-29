@@ -7,14 +7,14 @@ function setColumns(i) {
 }
 
 function setRowsAndColumnsFromInputs() {
-  var r = document.getElementById('rows-count').value;
-  var c = document.getElementById('columns-count').value;
+  var r = document.getElementById('rows-edit').value;
+  var c = document.getElementById('columns-edit').value;
   setRows(r);
   setColumns(c);
   // TODO: Delete existing elements and redraw
 }
 
 function setInputsFromRowsAndColumns() {
-  document.getElementById('rows-count').value = window.numberOfRows;
-  document.getElementById('columns-count').value = window.numberOfColumns;
+  document.getElementById('rows-edit').value = window.numberOfRows;
+  document.getElementById('columns-edit').value = window.numberOfColumns;
 }

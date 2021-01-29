@@ -20,6 +20,14 @@ div#container {
   background-color: rgba(25,25,25,0.2);
 }
 
+.error {
+  background-color: #f99;
+  border: solid 3px #933;
+  color: #222;
+  padding: 10px;
+  font-size: smaller !important;
+}
+
 div.section {
   display: flex;
   flex-wrap: wrap;
@@ -106,8 +114,9 @@ header {
 }
 
 header h1 {
-  width: 45%;
+  width: 43%;
   float: left;
+  padding-left: 2%
 }
 
 header h2 {
@@ -145,16 +154,13 @@ footer {
 .tile-style-7 { border-color: #6bcade !important; }
 .tile-style-8 { border-color: #71abdd !important; }
 
-a#generate-permalink {
-  font-size: 10px;
-  border-bottom: 1px solid #333;
-  cursor: pointer;
+p#show-permalink {
+  width: 370px;
+  padding: 2px;
 }
 
-p#show-permalink {
-  width: 406px;
-  font-size: 12px;
-  padding: 2px;
+#show-permalink a {
+  color: #ccccee;
 }
 
 h1 {
