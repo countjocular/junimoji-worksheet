@@ -18,4 +18,8 @@ function redrawGridAndClues() {
   var container = document.getElementById('container');
   container.style.width = window.numberOfRows * 205;
   container.style.height = window.numberOfColumns * 205;
+
+  document.getElementById('subgrid-count').innerHTML = numberOfSections();
+
+  createJunimojiListeners();
 }
